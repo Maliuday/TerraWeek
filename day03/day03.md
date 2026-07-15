@@ -1,7 +1,5 @@
 # ☁️ TerraWeek Day 03 — Build AWS Infrastructure with Terraform
 
-**👨‍💻 Author:** Uday Mali
-
 **📅 Date:** 14 July 2026
 
 ---
