@@ -175,7 +175,7 @@ It defines:
 - AWS Provider Version
 - Deployment Region
 
-![Terraform Provider](./images/day03/01-terraform-provider.png)
+![Terraform Provider](./images/01-terraform-provider.png)
 
 ---
 
@@ -191,7 +191,7 @@ The following variables were used in this project:
 - AWS Region
 - Name Prefix
 
-![Variables](assets/day03/02-variables.png)
+![Variables](./images/02-variables.png)
 
 ---
 
@@ -206,7 +206,7 @@ Configured Rules:
 | HTTP | 80 | 0.0.0.0/0 |
 | Outbound | All | Anywhere |
 
-![Security Group Code](assets/day03/03-main-security-group.png)
+![Security Group Code](./images/03-main-security-group.png)
 
 ---
 
