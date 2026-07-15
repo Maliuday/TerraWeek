@@ -223,7 +223,7 @@ Key Features:
 - Lifecycle Configuration
 - Count Meta Argument
 
-![EC2 Configuration](assets/day03/04-main-ec2.png)
+![EC2 Configuration](./images/04-main-ec2.png)
 
 ---
 
@@ -238,7 +238,7 @@ The following outputs were configured:
 - Web URLs
 - AMI ID
 
-![Terraform Outputs](assets/day03/05-outputs.png)
+![Terraform Outputs](./images/05-outputs.png)
 
 ---
 
@@ -294,7 +294,7 @@ Terraform downloads the required AWS provider plugins and prepares the working d
 terraform init
 ```
 
-![Terraform Init](assets/day03/06-terraform-init.png)
+![Terraform Init](./images/06-terraform-init.png)
 
 **Result**
 
@@ -312,7 +312,7 @@ Terraform validates the configuration files before deployment.
 terraform validate
 ```
 
-![Terraform Validate](assets/day03/07-terraform-validate.png)
+![Terraform Validate](./images/07-terraform-validate.png)
 
 **Result**
 
@@ -330,7 +330,7 @@ Terraform generates an execution plan that shows which resources will be created
 terraform plan
 ```
 
-![Terraform Plan](assets/day03/08-terraform-plan.png)
+![Terraform Plan](./images/08-terraform-plan.png)
 
 Terraform planned the creation of:
 
@@ -354,7 +354,7 @@ Terraform created the complete AWS infrastructure after approval.
 terraform apply
 ```
 
-![Terraform Apply](assets/day03/09-terraform-apply.png)
+![Terraform Apply](./images/09-terraform-apply.png)
 
 **Resources Created**
 
@@ -378,7 +378,7 @@ Terraform outputs provide important information after deployment.
 terraform output
 ```
 
-![Terraform Output](assets/day03/10-terraform-output.png)
+![Terraform Output](./images/10-terraform-output.png)
 
 Outputs included:
 
@@ -399,7 +399,7 @@ Terraform stores infrastructure information inside the Terraform State file.
 terraform state list
 ```
 
-![Terraform State](assets/day03/11-terraform-state-list.png)
+![Terraform State](./images/11-terraform-state-list.png)
 
 The state file keeps track of every AWS resource managed by Terraform and enables future updates without recreating existing infrastructure.
 
@@ -416,7 +416,7 @@ The EC2 instances automatically installed **Nginx** using the **User Data** scri
 
 After deployment, I accessed the application using the EC2 Public IP address.
 
-![Browser Output](assets/day03/13-browser-instance-1.png)
+![Browser Output](./images/13-browser-instance-1.png)
 
 The successful browser response confirmed that:
 
@@ -445,7 +445,7 @@ Features:
 - t3.micro Instance Type
 - Automatically Installed Nginx
 
-![EC2 Instances](assets/day03/14-ec2-instances.png)
+![EC2 Instances](./images/14-ec2-instances.png)
 
 ---
 
@@ -455,7 +455,7 @@ A dedicated Virtual Private Cloud (VPC) was created to isolate the infrastructur
 
 The VPC acts as the private network where all AWS resources are deployed securely.
 
-![VPC](assets/day03/15-vpc.png)
+![VPC](./images/15-vpc.png)
 
 ---
 
@@ -465,7 +465,7 @@ A Public Subnet was created inside the VPC.
 
 This subnet allows resources to communicate with the internet through the Internet Gateway.
 
-![Public Subnet](assets/day03/16-subnets.png)
+![Public Subnet](./images/16-subnets.png)
 
 ---
 
@@ -475,7 +475,7 @@ The Internet Gateway provides internet connectivity to resources inside the VPC.
 
 Without the Internet Gateway, the EC2 instance would not be accessible from the browser.
 
-![Internet Gateway](assets/day03/17-internet-gateway.png)
+![Internet Gateway](./images/17-internet-gateway.png)
 
 ---
 
@@ -485,7 +485,7 @@ The Route Table defines how network traffic is routed.
 
 A default route (`0.0.0.0/0`) forwards internet traffic through the Internet Gateway.
 
-![Route Table](assets/day03/18-route-table.png)
+![Route Table](./images/18-route-table.png)
 
 ---
 
@@ -500,7 +500,7 @@ Configured Rules:
 | HTTP | 80 | Browser Access |
 | All Outbound | All | Internet Access |
 
-![Security Group](assets/day03/19-security-group.png)
+![Security Group](./images/19-security-group.png)
 
 ---
 
@@ -539,7 +539,7 @@ Once the deployment was verified successfully, all AWS resources were destroyed 
 terraform destroy
 ```
 
-![Terraform Destroy](assets/day03/12-terraform-destroy.png)
+![Terraform Destroy](./images/12-terraform-destroy.png)
 
 Terraform removed all managed resources in the correct dependency order, ensuring a clean and cost-effective environment.
 
