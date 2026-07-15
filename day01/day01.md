@@ -261,7 +261,7 @@ This marks the beginning of my 7-Day Terraform learning journey.
 
 GitHub Repository:
 
-**https://github.com/Maliuday/TerraWeek**
+[TerraWeek GitHub Repository](https://github.com/Maliuday/TerraWeek)
 
 ---
 
