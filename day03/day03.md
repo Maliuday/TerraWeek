@@ -175,7 +175,7 @@ It defines:
 - AWS Provider Version
 - Deployment Region
 
-![Terraform Provider](./imagesday03/01-terraform-provider.png)
+![Terraform Provider](./images/day03/01-terraform-provider.png)
 
 ---
 
