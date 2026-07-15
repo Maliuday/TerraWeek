@@ -1,6 +1,6 @@
 # 🌱 TerraWeek - Day 2 | HCL Deep Dive with Variables, Locals & Outputs
 
-**📅 Date:** 14 July 2026
+**📅 Date:** 13 July 2026
 
 ![Terraform](https://img.shields.io/badge/Terraform-v1.13+-623CE4?style=for-the-badge&logo=terraform)
 ![Docker](https://img.shields.io/badge/Docker-29.0-2496ED?style=for-the-badge&logo=docker)
