@@ -2,8 +2,6 @@
 
 **📅 Date:** 14 July 2026
 
----
-
 # 📌 Overview
 
 On Day 03 of the TerraWeek Challenge, I built and automated AWS infrastructure using **Terraform**, following the principles of **Infrastructure as Code (IaC)**.
