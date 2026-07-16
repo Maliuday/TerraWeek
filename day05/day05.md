@@ -1,5 +1,5 @@
 # 📦 TerraWeek Day 5 – Terraform Modules: Reusable & Composable Infrastructure
-
+**Date:** Thursday, 16th July 2026
 <div align="center">
 
 ![Terraform](https://img.shields.io/badge/Terraform-v1.10+-623CE4?style=for-the-badge&logo=terraform)
