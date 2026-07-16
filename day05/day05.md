@@ -413,44 +413,129 @@ Terraform successfully created:
 
 # 📸 Implementation Screenshots
 
-## Project Setup
+## 📁 Project Setup
 
-| Screenshot | Description |
-|------------|-------------|
-| 01-folder-structure.png | Project Folder Structure |
-| 02-module-folder.png | Reusable Module Structure |
-| 03-root-main.png | Root Module Configuration |
-| 04-module-main.png | Child Module Resources |
-| 05-module-variables.png | Module Input Variables |
-| 06-module-outputs.png | Module Outputs |
+### 01. Folder Structure
+
+![01-folder-structure](image/01-folder-structure.png)
 
 ---
 
-## Terraform Workflow
+### 02. Module Folder Structure
 
-| Screenshot | Description |
-|------------|-------------|
-| 07-terraform-init.png | Terraform Initialization |
-| 08-terraform-validate.png | Configuration Validation |
-| 09-terraform-plan.png | Execution Plan |
-| 10-terraform-apply.png | Infrastructure Deployment |
-| 11-terraform-output.png | Module Outputs |
-| 12-state-list.png | Terraform State List |
-| 13-state-show.png | Resource State Details |
+![02-module-folder](image/02-module-folder.png)
 
 ---
 
-## AWS Console Verification
+### 03. Root Module
 
-| Screenshot | Description |
-|------------|-------------|
-| 14-ec2-instance.png | EC2 Instances Created |
-| 15-ec2-tags.png | Resource Tags |
-| 16-security-group.png | Security Group |
-| 17-default-vpc.png | Default VPC |
-| 18-default-subnets.png | Default Subnets |
-| 19-module-resources.png | Terraform Managed Resources |
-| 20-terraform-destroy.png | Infrastructure Destroyed Successfully |
+![03-root-main](image/03-root-main.png)
+
+---
+
+### 04. Module Main
+
+![04-module-main](image/04-module-main.png)
+
+---
+
+### 05. Module Variables
+
+![05-module-variables](image/05-module-variables.png)
+
+---
+
+### 06. Module Outputs
+
+![06-module-outputs](image/06-module-outputs.png)
+
+---
+
+## ⚙ Terraform Workflow
+
+### 07. Terraform Init
+
+![07-terraform-init](image/07-terraform-init.png)
+
+---
+
+### 08. Terraform Validate
+
+![08-terraform-validate](image/08-terraform-validate.png)
+
+---
+
+### 09. Terraform Plan
+
+![09-terraform-plan](image/09-terraform-plan.png)
+
+---
+
+### 10. Terraform Apply
+
+![10-terraform-apply](image/10-terraform-apply.png)
+
+---
+
+### 11. Terraform Output
+
+![11-terraform-output](image/11-terraform-output.png)
+
+---
+
+### 12. Terraform State List
+
+![12-state-list](image/12-state-list.png)
+
+---
+
+### 13. Terraform State Show
+
+![13-state-show](image/13-state-show.png)
+
+---
+
+## ☁ AWS Console Verification
+
+### 14. EC2 Instances
+
+![14-ec2-instance](image/14-ec2-instance.png)
+
+---
+
+### 15. EC2 Tags
+
+![15-ec2-tags](image/15-ec2-tags.png)
+
+---
+
+### 16. Security Group
+
+![16-security-group](image/16-security-group.png)
+
+---
+
+### 17. Default VPC
+
+![17-default-vpc](image/17-default-vpc.png)
+
+---
+
+### 18. Default Subnets
+
+![18-default-subnets](image/18-default-subnets.png)
+
+---
+
+### 19. Module Resources
+
+![19-module-resources](image/19-module-resources.png)
+
+---
+
+### 20. Terraform Destroy
+
+![20-terraform-destroy](image/20-terraform-destroy.png)
 
 ---
 ---
