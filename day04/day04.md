@@ -1,6 +1,6 @@
 # 🗄️ TerraWeek Day 4 — Terraform State & Remote Backend (Native S3 Locking)
 
-> **Date:** 16 July 2026
+> **Date:** Wednesday, 15th July 2026
 
 Today I explored one of the most important concepts in Terraform—**Terraform State Management**.
 
