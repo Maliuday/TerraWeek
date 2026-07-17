@@ -1,6 +1,6 @@
 # 🚀 TerraWeek Day 6 – Advanced Terraform Testing, Workspaces & CI/CD
 
-> **Date:** 17 July 2026
+> **Date:** Friday, 17th July 2026
 
 ## 📖 Overview
 
